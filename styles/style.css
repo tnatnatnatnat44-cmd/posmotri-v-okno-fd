@@ -105,6 +105,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  min-width: 0;
 }
 
 .result__video {
@@ -148,7 +149,7 @@ ol {
   font-style: normal;
   font-size: 18px;
   line-height: 16.2px;
-  white-space: wrap;
+  white-space: wrap; 
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -171,7 +172,7 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link_current:active {
+.content__card-link_current {
   background-color: #545050;
 }
 
